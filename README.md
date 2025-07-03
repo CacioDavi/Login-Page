@@ -15,4 +15,8 @@ Uma página de Login simples, utiliza um formulário básico que exige um Email 
 - [ ] Checar se o usuário preencheu corretamente o formulário
 - [ ] Ativar mensagens de erro se necessário
 
+## Link para o Design do Figma
+
+- https://www.figma.com/design/k4az9MHKqcbXHWkjfpLMlU/Login-Page?node-id=0-1&t=mhAFQPyyH23E0VNR-1
+
 
