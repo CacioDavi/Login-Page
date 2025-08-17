@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
 
-    <link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
+    <link rel="stylesheet" type="text/css" href="style/main.css" media="screen"/>
     <link rel="stylesheet" type="text/css" href="style/reset.css" media="screen">
     <link rel="stylesheet" type="text/css" href="style/inputs.css" media="screen">
 
@@ -17,12 +17,14 @@
     <form name="Login" id="Login-Form" action="" method="post" autocomplete="on">
         <h1>Welcome Back!</h1>
         <div class="textInput-Container">
-            <input type="email" placeholder="Email" name="iEmail" id="iEmail" class="textInputs" autocomplete="email"/>
-            <span>Email</span>
+            <input type="email" name="iEmail" id="iEmail" class="textInputs" autocomplete="email" 
+                oninput="IsEmpty(this)" required/>
+            <span class="placeholder" data-placeholder="Email"></span>
         </div>
         <div class="textInput-Container">
-            <input type="password" name="iPassword" id="iPassword" class="textInputs" autocomplete="current-password"/>
-            <span>Password</span>
+            <input type="password" name="iPassword" id="iPassword" class="textInputs" autocomplete="current-password" 
+                oninput="IsEmpty(this)" required/>
+            <span class="placeholder" data-placeholder="Password"></span>
         </div>
         <input type="submit" name="Sbm-btn" id="submit" class="btn-submit" value="Login"/>
         <div class="recovery-register-container">
@@ -30,5 +32,7 @@
             <a href="#">Don't have a acount?</a>
         </div>
     </form>
+
+    <script src="/script/index.js" defer></script>
 </body>
 </html>

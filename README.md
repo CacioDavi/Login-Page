@@ -17,7 +17,6 @@
 
 - [ ] Checar se o usuário preencheu corretamente o formulário
 - [ ] Ativar mensagens de erro se necessário
-
 <hr>
 
 <p><a href="https://caciodavi.github.io/Login-Page/" target="_blank"> Github Pages</a></p>
