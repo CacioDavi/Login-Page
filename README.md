@@ -10,7 +10,7 @@
 
 - [X] Uma imagem de fundo de uma paisagem
 - [X] Um Formulário com fundo translúcido
-- [ ] Inputs com uma animação simples ao serem selecionados
+- [X] Inputs com uma animação simples ao serem selecionados
 - [X] Um Input do tipo submit para enviar o formulário
 
 <h3> Javascript</h3>
