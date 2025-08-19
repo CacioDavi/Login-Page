@@ -40,13 +40,20 @@
     display: block;
     content: attr(data-placeholder);
     top: 6px;
-    left: 1;
+    left: 0;
 
-    transition: top 0.4s;
+    transition: top 0.5s, color 0.4s, left 0.1s;
 }
 
+.textInputs + .placeholder::after {
+    color: #3b3b3b;
+    top: 6px;
+    left: 0;
+}
 .textInputs:focus + .placeholder::after {
     top: -15px;
+    left: -5px;
+    color: black;
 }
 
 .inputHasText + .placeholder::after {
@@ -65,10 +72,13 @@
 
     margin: 0 0 5% 0;
     font-size: medium;
+
+    transition: background-color 500ms;
 }
 
 #submit:hover {
     background-color: #1e1e1e;
+    cursor: pointer;
 }
 
 @keyframes UpPlaceholder {
