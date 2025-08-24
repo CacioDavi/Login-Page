@@ -3,6 +3,7 @@
 <h2>Introdução</h2>
 
 <p>Uma página de Login simples, utiliza um formulário básico que exige um Email e uma senha para logar em uma suposta plataforma. </p>
+<p>Tem como objetivo de através de sua estética passar uma sensação de paz para os usuários, sem exageros nas cores ou movimentação constante na tela, apenas o essencial.</p>
 
 <h2>Estrutura</h2>
 
